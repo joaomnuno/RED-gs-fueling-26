@@ -5,7 +5,6 @@ Frontend user interface for the RED Ground Station fueling system.
 This repository contains the **web-based dashboard** used to monitor and control
 the fueling system and visualize rocket tank state.  
 
----
 
 ## 1. Overview
 
@@ -17,7 +16,6 @@ The Fueling UI is a single-page React application (for now). It provides:
 
 This repository currently contains **frontend code only**.
 
----
 
 ## 2. Current Project State
 
@@ -30,9 +28,8 @@ This repository currently contains **frontend code only**.
 
 This project is under development and intentionally kept minimal at this stage.
 
----
 
-## 3. Software
+## 3. Implementation Overview
 
 Frontend:
 - JavaScript
@@ -45,7 +42,6 @@ Planned:
 - Redis (shared state / pub-sub)
 - C drivers for hardware interfaces
 
----
 
 ## 4. Installation (Frontend Only)
 
