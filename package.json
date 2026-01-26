@@ -1,0 +1,22 @@
+{
+  "name": "red-gs-fueling-26",
+  "version": "1.0.0",
+  "description": "- Single-page React app\r - One Ground Station view\r - Diagram-driven UI (JointJS)\r - No backend integration yet",
+  "private": true,
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.4.1"
+  }
+}
