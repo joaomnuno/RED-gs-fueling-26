@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import RocketDiagram from "./components/RocketDiagram";
 
 import Navbar from "./components/Navbar";
 
@@ -12,9 +13,23 @@ export default function FuelingDashboard() {
         <Navbar />
 
         <div className="dashboard">
-            <div className="dashboard-panel">Rocket</div>
+
+            <div className="dashboard-panel rocket-panel">
+                <div className="panel-title">Rocket</div>
+                <RocketDiagram />
+            </div>
+
             <div className='divider'></div>
-            <div className="dashboard-panel">Fueling system</div>
+            
+            <div className="dashboard-panel fueling-panel">
+                <div className='panel-title'>Fueling System</div>
+            </div>
+            
+            <div className='divider'></div>
+            
+            <div className="dashboard-panel control-panel">
+                <div className='panel-title'>Control Panel</div>
+            </div>
         </div>
 
     </div>
